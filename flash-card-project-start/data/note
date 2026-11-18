@@ -1,0 +1,13 @@
+error handling block explanation
+
+Try words_to_learn.csv
+       ↓
+   Does it exist?
+   ↙          ↘
+ YES           NO
+  ↓             ↓
+use it       use korean_words.csv
+  ↓             ↓
+      to_learn
+         ↓
+      print
